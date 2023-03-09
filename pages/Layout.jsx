@@ -1,5 +1,5 @@
-import Header from "./comps/Header";
-import Footer from "./comps/Footer";
+import Header from "../comps/Header";
+import Footer from "../comps/Footer";
 
 const Layout = ({ children }) => {
   return (
