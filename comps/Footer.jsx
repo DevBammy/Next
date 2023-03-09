@@ -4,10 +4,10 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className="container">
-        <div className="footer">
+      <div className="footer">
+        <section>
           <p>Copyright devBammy &copy;</p>
-        </div>
+        </section>
       </div>
     </>
   );

@@ -3,8 +3,8 @@ import Link from "next/link";
 const Header = () => {
   return (
     <>
-      <div className="container">
-        <div className="header">
+      <div className="header">
+        <section>
           <Link href="/">
             <h2>Sample</h2>
           </Link>
@@ -13,7 +13,7 @@ const Header = () => {
             <Link href="/about">About</Link>
             <Link href="/staff">Staff Members</Link>
           </nav>
-        </div>
+        </section>
       </div>
     </>
   );
